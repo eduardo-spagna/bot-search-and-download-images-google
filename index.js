@@ -1,7 +1,9 @@
 const searchImages = require('./modules/searchImages');
+const saveImages = require('./modules/saveImages');
 
 const main = async () => {
-  await searchImages.getImages();
+  const images = await searchImages.getImages();
+  saveImages.save(images);
 }
 
 main();
