@@ -1,0 +1,22 @@
+{
+  "name": "bot-search-download-images-google",
+  "version": "1.0.0",
+  "description": "A simple bot to search anything and download images from Google",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "google",
+    "images",
+    "search",
+    "download"
+  ],
+  "author": "Eduardo Spagna",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^4.0.0"
+  }
+}
